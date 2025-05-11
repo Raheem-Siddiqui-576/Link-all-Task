@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+  <style>
+    
+  </style>
+</head>
+<body>
+  <div align="center">
+    <img src="./assets/Screenshot 2025-04-30 164004.png" alt="Saulani-Logo" height="100px" width="auto">
+    <h1>Saylani Online Academy</h1>
+  </div>
+  <form action="2nd-page.html">
+    <table bgcolor="#D3D3D3" cellpadding="10" cellspacing="0" align="center">
+        <tr>
+            <th colspan="2"><h2>Student Registration Form</h2></th>
+        </tr>
+        <tr>
+            <td><label for="name">Name:</label></td>
+            <td><input type="text" id="name" name="name" placeholder="Name"></td>
+        </tr>
+        <tr>
+            <td><label for="fname">Father Name:</label></td>
+            <td><input type="text" id="fname" name="fname" placeholder="Father Name"></td>
+        </tr>
+        <tr>
+            <td><label for="password">Password:</label></td>
+            <td><input type="password" placeholder="*************" id="password" name="password"></td>
+        </tr>
+        <tr>
+            <td><label for="address">Address:</label></td>
+            <td><textarea id="address" name="address" rows="4" cols="30" placeholder="Address"></textarea></td>
+        </tr>
+        <tr>
+            <td>Gender:</td>
+            <td>
+                <input type="radio" id="male" name="gender" value="male"><label for="male"> Male</label>
+                <input type="radio" id="female" name="gender" value="female"><label for="female"> Female</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Language:</td>
+            <td>
+                <input type="checkbox" name="language" value="urdu"> Urdu
+                <input type="checkbox" name="language" value="english"> English
+                <input type="checkbox" name="language" value="arabic"> Arabic
+                <input type="checkbox" name="language" value="chinese"> Chinese
+            </td>
+        </tr>
+        <tr>    
+            <td><label for="dob">DOB:</label></td>
+            <td><input type="date" id="dob" name="dob"></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email Id:</label></td>
+            <td><input type="email" id="email" name="email" placeholder="Email ID"></td>
+        </tr>
+        <tr>
+            <td><label for="mobile">Mobile Number:</label></td>
+            <td><input type="tel" id="mobile" name="mobile" placeholder="Mobile Number"></td>
+        </tr>
+        <tr>
+            <td><label for="city">City:</label></td>
+            <td>
+                <select id="city" name="city">
+                    <option value="">Select Your City</option>
+                    <option value="karachi">Karachi</option>
+                    <option value="lahore">Lahore</option>
+                    <option value="islamabad">Islamabad</option>
+                    <option value="hyderabad">Hyderabad</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="hobbies">Hobbies:</label></td>
+            <td>
+                <select name="hobbies" id="hobbies" multiple size="4">
+                    <option value="cricket">Cricket</option>
+                    <option value="football">Football</option>
+                    <option value="hockey">Hockey</option>
+                    <option value="tennis">Tennis</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Picture Upload:</td>
+            <td><input type="file" name="picture"></td>
+            <td><input type="submit" value="Upload"></td>
+        </tr>
+        <tr>
+            <td colspan="3" align="center">
+               <a href="2nd-page.html"><input type="submit" value="Submit Form"></a> 
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
